@@ -27,6 +27,7 @@ export default{
 		_getSingerDetail(id){
 			getSingerDetail(id).then((res) => {
 				if (res.code === ERR_OK) {
+					console.log(res)
           this.songs = this._normalizeSongs(res.data.list)
         }else{
         	console.log('singer-detail获取数据失败')
@@ -37,13 +38,13 @@ export default{
 		//数据处理
 		_normalizeSongs(list){
 			let ret = []
-      list.forEach((item) => {
-        let {musicData} = item
-        if (musicData.songid && musicData.albummid) {
-          ret.push(createSong(musicData))
-        }
-      })
-      return ret
+	      list.forEach((item) => {
+	        let {musicData} = item
+	        if (musicData.songid && musicData.albummid) {
+	          ret.push(createSong(musicData))
+	        }
+	      })
+	      return ret
 		}
 	},
 	computed:{
@@ -54,6 +55,7 @@ export default{
       return this.singer.name
     },
     bgImage() {
+    	console.log(this.singer)
 	      return this.singer.avatar
 	    },
 	},

@@ -37,6 +37,7 @@ export default{
 		display:flex
 		align-items: center
 		box-sizing:border-box
+		overflow: hidden
 		height:64px
 		font-size:$font-size-medium
 		.content
