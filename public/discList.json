@@ -1,0 +1,616 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "uin": 0,
+        "categoryId": 10000000,
+        "sortId": 5,
+        "sum": 7909,
+        "sin": 0,
+        "ein": 29,
+        "list": [
+            {
+                "dissid": "3822846160",
+                "createtime": "2018-04-10",
+                "commit_time": "2018-04-10",
+                "dissname": "「忘原唱系列」惊艳耳际，一秒倾心",
+                "imgurl": "http://p.qpic.cn/music_cover/amD8XDvFG8ClIJ5Hib0U0jflDmGAkNV1vqDWf3S07wto59RNZhuKdjg/600?n=1",
+                "introduction": "",
+                "listennum": 322204,
+                "score": 0,
+                "version": 0,
+                "creator": {
+                    "type": 2,
+                    "qq": 1214673117,
+                    "encrypt_uin": "oK-57eCloi657z**",
+                    "name": "小攀哟",
+                    "isVip": 2,
+                    "avatarUrl": "",
+                    "followflag": 0
+                }
+            },
+            {
+                "dissid": "7142443932",
+                "createtime": "2019-08-14",
+                "commit_time": "2019-08-14",
+                "dissname": "华语催泪：只想痛快哭一场",
+                "imgurl": "http://p.qpic.cn/music_cover/8eiaDBJ27yYicpMibYZmmEdNJFFXykPaib2NH0n8CwwgVqE0aHHLUQHeicw/600?n=1",
+                "introduction": "",
+                "listennum": 128914,
+                "score": 0,
+                "version": 0,
+                "creator": {
+                    "type": 0,
+                    "qq": 987674549,
+                    "encrypt_uin": "NKcl7wSP7Kvq",
+                    "name": "小众又怎样",
+                    "isVip": 0,
+                    "avatarUrl": "",
+                    "followflag": 0
+                }
+            },
+            {
+                "dissid": "7145681763",
+                "createtime": "2019-08-12",
+                "commit_time": "2019-08-12",
+                "dissname": "悠扬闲适，在旋律清风中化蝶飞舞",
+                "imgurl": "http://p.qpic.cn/music_cover/KetjXWSVppvyrVJfzfdpib7h4y5EdwZSdkyVzGmbqdZARMrOW7OrJ2Q/600?n=1",
+                "introduction": "",
+                "listennum": 50921,
+                "score": 0,
+                "version": 0,
+                "creator": {
+                    "type": 6,
+                    "qq": 55894433,
+                    "encrypt_uin": "7K4FNKvPoio*",
+                    "name": "QQ音乐VIP",
+                    "isVip": 6,
+                    "avatarUrl": "",
+                    "followflag": 0
+                }
+            },
+            {
+                "dissid": "7074538435",
+                "createtime": "2019-07-04",
+                "commit_time": "2019-07-04",
+                "dissname": "深情民谣丨暖阳温柔似君心",
+                "imgurl": "http://p.qpic.cn/music_cover/hKFribMhwH4ClwNWJxicuCxgD3sib9sU5fFAJuUl9QGrxibKuQJcqL0k2Q/600?n=1",
+                "introduction": "",
+                "listennum": 140496,
+                "score": 0,
+                "version": 0,
+                "creator": {
+                    "type": 2,
+                    "qq": 1498030674,
+                    "encrypt_uin": "oKvqNenioeCl7n**",
+                    "name": "热心网友昀恺丶",
+                    "isVip": 2,
+                    "avatarUrl": "",
+                    "followflag": 0
+                }
+            },
+            {
+                "dissid": "7064080636",
+                "createtime": "2019-07-05",
+                "commit_time": "2019-07-05",
+                "dissname": "青春少年丨国内唱见“易言”歌曲集",
+                "imgurl": "http://p.qpic.cn/music_cover/0HKQa8IxUt8Bh1LsmCsLBS2BM6Q3A0fvibqU5TEyMABbaUtBLBvv6iaA/600?n=1",
+                "introduction": "",
+                "listennum": 24671,
+                "score": 0,
+                "version": 0,
+                "creator": {
+                    "type": 2,
+                    "qq": 1812948331,
+                    "encrypt_uin": "oKc5owEPNeoiov**",
+                    "name": "私に闻いて风i",
+                    "isVip": 2,
+                    "avatarUrl": "",
+                    "followflag": 0
+                }
+            },
+            {
+                "dissid": "7148355361",
+                "createtime": "2019-08-13",
+                "commit_time": "2019-08-13",
+                "dissname": "落叶知秋，藏在秋风下的心事...",
+                "imgurl": "http://p.qpic.cn/music_cover/6pKF7XnkTESE8L7nkkbjXv7A9VevyM9lOrg8Ag85tdiaM59v0z9aKIg/600?n=1",
+                "introduction": "",
+                "listennum": 79171,
+                "score": 0,
+                "version": 0,
+                "creator": {
+                    "type": 1,
+                    "qq": 1043698531,
+                    "encrypt_uin": "oKnPoiCqNe4iov**",
+                    "name": "刘珂矣",
+                    "isVip": 1,
+                    "avatarUrl": "",
+                    "followflag": 0
+                }
+            },
+            {
+                "dissid": "7151735397",
+                "createtime": "2019-08-13",
+                "commit_time": "2019-08-13",
+                "dissname": "甜味剂 · 热恋情话指南",
+                "imgurl": "http://p.qpic.cn/music_cover/Fe6emiag6IuVbMib3oN6yctX3Dex1Uqc4b6qlQB4BNjibiaOT6zZTSLKgQ/600?n=1",
+                "introduction": "",
+                "listennum": 88748,
+                "score": 0,
+                "version": 0,
+                "creator": {
+                    "type": 2,
+                    "qq": 2407142727,
+                    "encrypt_uin": "owvz7i6PowSA7z**",
+                    "name": "就是一个听歌der",
+                    "isVip": 2,
+                    "avatarUrl": "",
+                    "followflag": 0
+                }
+            },
+            {
+                "dissid": "7142851485",
+                "createtime": "2019-08-13",
+                "commit_time": "2019-08-13",
+                "dissname": "晚安民谣 · 枕边随想指南",
+                "imgurl": "http://p.qpic.cn/music_cover/HZnqT8B6sibc2iaxSb6biaOAReu5nQvU4LNKwQzA4eICrDAtnnBPCpTpw/600?n=1",
+                "introduction": "",
+                "listennum": 13911,
+                "score": 0,
+                "version": 0,
+                "creator": {
+                    "type": 2,
+                    "qq": 3490786195,
+                    "encrypt_uin": "oivqoeSF7w6q7v**",
+                    "name": "允许部分冷门先热起来",
+                    "isVip": 2,
+                    "avatarUrl": "",
+                    "followflag": 0
+                }
+            },
+            {
+                "dissid": "7124088208",
+                "createtime": "2019-07-31",
+                "commit_time": "2019-07-31",
+                "dissname": "日系纯音 : 旧时光影里的少年",
+                "imgurl": "http://p.qpic.cn/music_cover/3MLTH2k3HibTypyQfrdDcnCNrm7fw2UaOpWIlr1POYRUoY4wqeNicJWg/600?n=1",
+                "introduction": "",
+                "listennum": 25654,
+                "score": 0,
+                "version": 0,
+                "creator": {
+                    "type": 2,
+                    "qq": 1083284863,
+                    "encrypt_uin": "oKnFoi-F7ecsoz**",
+                    "name": "北鹤",
+                    "isVip": 2,
+                    "avatarUrl": "",
+                    "followflag": 0
+                }
+            },
+            {
+                "dissid": "7039540605",
+                "createtime": "2019-06-12",
+                "commit_time": "2019-06-12",
+                "dissname": " 心动夏日 | 来一场别样的派对",
+                "imgurl": "http://p.qpic.cn/music_cover/juzyHvC638LETRibiaAW8jHic65lic4HWxP76o7hz30O3Y7md4TtM74YEw/600?n=1",
+                "introduction": "",
+                "listennum": 12661,
+                "score": 0,
+                "version": 0,
+                "creator": {
+                    "type": 0,
+                    "qq": 1923378681,
+                    "encrypt_uin": "oKEAoiolNeCFov**",
+                    "name": "我的电子永不停止",
+                    "isVip": 0,
+                    "avatarUrl": "",
+                    "followflag": 0
+                }
+            },
+            {
+                "dissid": "7150121359",
+                "createtime": "2019-08-14",
+                "commit_time": "2019-08-14",
+                "dissname": "少女感性#2015 韩国厂牌精选",
+                "imgurl": "http://p.qpic.cn/music_cover/1A4uAkiamsicACoTtN0PhOGABfQFPfvGJrNwrWoom7BL3cU27NegfibNA/600?n=1",
+                "introduction": "",
+                "listennum": 54452,
+                "score": 0,
+                "version": 0,
+                "creator": {
+                    "type": 2,
+                    "qq": 1431858600,
+                    "encrypt_uin": "oKvioKckNeCzon**",
+                    "name": "我是小达人",
+                    "isVip": 2,
+                    "avatarUrl": "",
+                    "followflag": 0
+                }
+            },
+            {
+                "dissid": "7150120116",
+                "createtime": "2019-08-14",
+                "commit_time": "2019-08-14",
+                "dissname": "MusicRay′n 厂牌歌手精选",
+                "imgurl": "http://p.qpic.cn/music_cover/1A4uAkiamsicACoTtN0PhOGABfQFPfvGJr0Mt54MicRe4Eg9NFPYwny0A/600?n=1",
+                "introduction": "",
+                "listennum": 40478,
+                "score": 0,
+                "version": 0,
+                "creator": {
+                    "type": 2,
+                    "qq": 1431858600,
+                    "encrypt_uin": "oKvioKckNeCzon**",
+                    "name": "我是小达人",
+                    "isVip": 2,
+                    "avatarUrl": "",
+                    "followflag": 0
+                }
+            },
+            {
+                "dissid": "7040713255",
+                "createtime": "2019-06-13",
+                "commit_time": "2019-06-13",
+                "dissname": "迷幻电子 | 徘徊在梦境的边缘",
+                "imgurl": "http://p.qpic.cn/music_cover/juzyHvC638LETRibiaAW8jH9fukFy3TexRAfRhworcIb48cLCgNVxZNg/600?n=1",
+                "introduction": "",
+                "listennum": 44951,
+                "score": 0,
+                "version": 0,
+                "creator": {
+                    "type": 0,
+                    "qq": 1923378681,
+                    "encrypt_uin": "oKEAoiolNeCFov**",
+                    "name": "我的电子永不停止",
+                    "isVip": 0,
+                    "avatarUrl": "",
+                    "followflag": 0
+                }
+            },
+            {
+                "dissid": "7052944761",
+                "createtime": "2019-08-05",
+                "commit_time": "2019-08-05",
+                "dissname": "听懂了情歌，错过了爱情",
+                "imgurl": "http://p.qpic.cn/music_cover/AhbCa0vazSRDjEJhYwthgoxuDAGq1YzV4yAoTrgsiaEnM5SU56fDKvA/600?n=1",
+                "introduction": "",
+                "listennum": 69773,
+                "score": 0,
+                "version": 0,
+                "creator": {
+                    "type": 2,
+                    "qq": 1747907171,
+                    "encrypt_uin": "oKSP7iEz7i6lov**",
+                    "name": "鹿仁",
+                    "isVip": 2,
+                    "avatarUrl": "",
+                    "followflag": 0
+                }
+            },
+            {
+                "dissid": "3787031451",
+                "createtime": "2019-07-17",
+                "commit_time": "2019-07-17",
+                "dissname": "古风合唱 │ 一帘风月入梦来",
+                "imgurl": "http://p.qpic.cn/music_cover/QPUdibADoJ6SbdNQVXRYDgTDddP0CVV3FdLU4m25gGvKBJM0Xo7rFMg/600?n=1",
+                "introduction": "",
+                "listennum": 41230,
+                "score": 0,
+                "version": 0,
+                "creator": {
+                    "type": 2,
+                    "qq": 1961769567,
+                    "encrypt_uin": "oKEsoKSsNK4s7z**",
+                    "name": "墨香",
+                    "isVip": 2,
+                    "avatarUrl": "",
+                    "followflag": 0
+                }
+            },
+            {
+                "dissid": "7124516844",
+                "createtime": "2019-08-05",
+                "commit_time": "2019-08-05",
+                "dissname": "乐队的青春：在年少时的燥动",
+                "imgurl": "http://p.qpic.cn/music_cover/UHauD98FRH3EBnKI0KX88lSWpJ4po12mml0YK5I2sLcibHk8raZy2sg/600?n=1",
+                "introduction": "",
+                "listennum": 104256,
+                "score": 0,
+                "version": 0,
+                "creator": {
+                    "type": 0,
+                    "qq": 987674549,
+                    "encrypt_uin": "NKcl7wSP7Kvq",
+                    "name": "小众又怎样",
+                    "isVip": 0,
+                    "avatarUrl": "",
+                    "followflag": 0
+                }
+            },
+            {
+                "dissid": "6998904583",
+                "createtime": "2019-07-24",
+                "commit_time": "2019-07-24",
+                "dissname": "爱情就是 ：前人栽树，后人乘凉",
+                "imgurl": "http://p.qpic.cn/music_cover/AhbCa0vazSRDjEJhYwthgjj2UjEGpR8hNqdLG2ic0LZCp84rKq8v0dg/600?n=1",
+                "introduction": "",
+                "listennum": 189915,
+                "score": 0,
+                "version": 0,
+                "creator": {
+                    "type": 2,
+                    "qq": 1747907171,
+                    "encrypt_uin": "oKSP7iEz7i6lov**",
+                    "name": "鹿仁",
+                    "isVip": 2,
+                    "avatarUrl": "",
+                    "followflag": 0
+                }
+            },
+            {
+                "dissid": "7150556493",
+                "createtime": "2019-08-13",
+                "commit_time": "2019-08-13",
+                "dissname": "青春苦短，向前奋进吧，少年",
+                "imgurl": "http://p.qpic.cn/music_cover/KetjXWSVppvyrVJfzfdpib7h4y5EdwZSddoic3HUjV9udOFQ1biaVYj6A/600?n=1",
+                "introduction": "",
+                "listennum": 50380,
+                "score": 0,
+                "version": 0,
+                "creator": {
+                    "type": 6,
+                    "qq": 55894433,
+                    "encrypt_uin": "7K4FNKvPoio*",
+                    "name": "QQ音乐VIP",
+                    "isVip": 6,
+                    "avatarUrl": "",
+                    "followflag": 0
+                }
+            },
+            {
+                "dissid": "7096700090",
+                "createtime": "2019-07-17",
+                "commit_time": "2019-07-17",
+                "dissname": "中国风 : 时光再荏苒，也凝成琥珀",
+                "imgurl": "http://p.qpic.cn/music_cover/3MLTH2k3HibTypyQfrdDcnDWpDbg5WwnzTKVicZGRm1y857DckcR8V8Q/600?n=1",
+                "introduction": "",
+                "listennum": 53940,
+                "score": 0,
+                "version": 0,
+                "creator": {
+                    "type": 2,
+                    "qq": 1083284863,
+                    "encrypt_uin": "oKnFoi-F7ecsoz**",
+                    "name": "北鹤",
+                    "isVip": 2,
+                    "avatarUrl": "",
+                    "followflag": 0
+                }
+            },
+            {
+                "dissid": "7098692800",
+                "createtime": "2019-07-19",
+                "commit_time": "2019-07-19",
+                "dissname": "激励 | 慢半拍找寻人生箴言",
+                "imgurl": "http://p.qpic.cn/music_cover/yaAoR5gcqYJQAXtyFibrhPWlnwUkBAcIPMpvXDZbwy1NUgq6UE68HRw/600?n=1",
+                "introduction": "",
+                "listennum": 86824,
+                "score": 0,
+                "version": 0,
+                "creator": {
+                    "type": 2,
+                    "qq": 2417302852,
+                    "encrypt_uin": "owv57iozowckoc**",
+                    "name": "呢喃 *",
+                    "isVip": 2,
+                    "avatarUrl": "",
+                    "followflag": 0
+                }
+            },
+            {
+                "dissid": "7139860510",
+                "createtime": "2019-08-07",
+                "commit_time": "2019-08-07",
+                "dissname": "肥皂菌自选曲",
+                "imgurl": "http://y.gtimg.cn/music/photo/album_500/9/500_albumpic_1853409_0.jpg?n=1",
+                "introduction": "",
+                "listennum": 114627,
+                "score": 0,
+                "version": 0,
+                "creator": {
+                    "type": 7,
+                    "qq": 361278836,
+                    "encrypt_uin": "oiC5owSFNeos",
+                    "name": "肥皂菌",
+                    "isVip": 7,
+                    "avatarUrl": "",
+                    "followflag": 0
+                }
+            },
+            {
+                "dissid": "7112235357",
+                "createtime": "2019-08-12",
+                "commit_time": "2019-08-12",
+                "dissname": "快乐驿站：乌云乌云快走开",
+                "imgurl": "http://p.qpic.cn/music_cover/YqQNFQNJiaSkibexzichdYOoNEGDeYgkNukmO5NA2JqLqx63rgHrP0X5A/600?n=1",
+                "introduction": "",
+                "listennum": 116932,
+                "score": 0,
+                "version": 0,
+                "creator": {
+                    "type": 0,
+                    "qq": 987674549,
+                    "encrypt_uin": "NKcl7wSP7Kvq",
+                    "name": "小众又怎样",
+                    "isVip": 0,
+                    "avatarUrl": "",
+                    "followflag": 0
+                }
+            },
+            {
+                "dissid": "7143179640",
+                "createtime": "2019-08-08",
+                "commit_time": "2019-08-08",
+                "dissname": "2019 PUKKELPOP 音乐节",
+                "imgurl": "http://p.qpic.cn/music_cover/G7bYEdsxMB7dQKj8khI1icWxCJPwiaxrcBy5AxngDMHZCa4ialkyePcbA/600?n=1",
+                "introduction": "",
+                "listennum": 145479,
+                "score": 0,
+                "version": 0,
+                "creator": {
+                    "type": 2,
+                    "qq": 1845803747,
+                    "encrypt_uin": "oKcP7KczoiSP7z**",
+                    "name": "小朱佩奇",
+                    "isVip": 2,
+                    "avatarUrl": "",
+                    "followflag": 0
+                }
+            },
+            {
+                "dissid": "7120635814",
+                "createtime": "2019-07-31",
+                "commit_time": "2019-07-31",
+                "dissname": "中国风女声 · 倾慕韶华红颜",
+                "imgurl": "http://p.qpic.cn/music_cover/AhbCa0vazSRDjEJhYwthgoxuDAGq1YzVEn28glx4EdSehmJ9ePSyCg/600?n=1",
+                "introduction": "",
+                "listennum": 57291,
+                "score": 0,
+                "version": 0,
+                "creator": {
+                    "type": 2,
+                    "qq": 1747907171,
+                    "encrypt_uin": "oKSP7iEz7i6lov**",
+                    "name": "鹿仁",
+                    "isVip": 2,
+                    "avatarUrl": "",
+                    "followflag": 0
+                }
+            },
+            {
+                "dissid": "7115011807",
+                "createtime": "2019-07-29",
+                "commit_time": "2019-07-29",
+                "dissname": "韶华倾负，只为一人绚烂",
+                "imgurl": "http://p.qpic.cn/music_cover/lYiaEbscaryrFiaicJFp8euuU75JzTt1le8MianYT5XA5jsaSdvGQxU6SQ/600?n=1",
+                "introduction": "",
+                "listennum": 45581,
+                "score": 0,
+                "version": 0,
+                "creator": {
+                    "type": 2,
+                    "qq": 1060444681,
+                    "encrypt_uin": "oKnsoevP7eCFov**",
+                    "name": "是硬糖啊",
+                    "isVip": 2,
+                    "avatarUrl": "",
+                    "followflag": 0
+                }
+            },
+            {
+                "dissid": "7152376819",
+                "createtime": "2019-08-16",
+                "commit_time": "2019-08-16",
+                "dissname": "Raver必备 | 2019EDC广东蹦迪歌单",
+                "imgurl": "http://p.qpic.cn/music_cover/PiajxSqBRaEKtKbTic7IPEBJDvJ3YrjeSvtHjdwNbE5hrRFlc4FkfARA/600?n=1",
+                "introduction": "",
+                "listennum": 102726,
+                "score": 0,
+                "version": 0,
+                "creator": {
+                    "type": 6,
+                    "qq": 1795517218,
+                    "encrypt_uin": "oKSq7K457i-5Nn**",
+                    "name": "ElectricDaisyCarnival",
+                    "isVip": 6,
+                    "avatarUrl": "",
+                    "followflag": 0
+                }
+            },
+            {
+                "dissid": "7141671806",
+                "createtime": "2019-08-07",
+                "commit_time": "2019-08-07",
+                "dissname": "休憩一刻，游弋到梦境的边缘",
+                "imgurl": "http://p.qpic.cn/music_cover/KetjXWSVppvyrVJfzfdpib7h4y5EdwZSdvT98KLWopcpBzU51tIEwHw/600?n=1",
+                "introduction": "",
+                "listennum": 55086,
+                "score": 0,
+                "version": 0,
+                "creator": {
+                    "type": 6,
+                    "qq": 55894433,
+                    "encrypt_uin": "7K4FNKvPoio*",
+                    "name": "QQ音乐VIP",
+                    "isVip": 6,
+                    "avatarUrl": "",
+                    "followflag": 0
+                }
+            },
+            {
+                "dissid": "5571197882",
+                "createtime": "2019-07-05",
+                "commit_time": "2019-07-05",
+                "dissname": "音乐：旅途上最好的充电器",
+                "imgurl": "http://p.qpic.cn/music_cover/Uj77DagTFgiccudSicYvppRoYxd2bcuUt5ZOLFhRGQt9yYa3vID0pnrA/600?n=1",
+                "introduction": "",
+                "listennum": 125543,
+                "score": 0,
+                "version": 0,
+                "creator": {
+                    "type": 2,
+                    "qq": 919820535,
+                    "encrypt_uin": "NK6qNe-z7Kok",
+                    "name": "Lee BG嗷柏",
+                    "isVip": 2,
+                    "avatarUrl": "",
+                    "followflag": 0
+                }
+            },
+            {
+                "dissid": "6960307245",
+                "createtime": "2019-06-25",
+                "commit_time": "2019-06-25",
+                "dissname": "布依族 | 与世无争的天籁之声\t",
+                "imgurl": "http://p.qpic.cn/music_cover/z5D0wytPKWngLmpCOFgNJmUDq2TMjE4sgAAdTPCDxEdTticjumQW6Xg/600?n=1",
+                "introduction": "",
+                "listennum": 37499,
+                "score": 0,
+                "version": 0,
+                "creator": {
+                    "type": 2,
+                    "qq": 2274294081,
+                    "encrypt_uin": "ow-l7e-q7enFov**",
+                    "name": "Weiat",
+                    "isVip": 2,
+                    "avatarUrl": "",
+                    "followflag": 0
+                }
+            },
+            {
+                "dissid": "7047223035",
+                "createtime": "2019-06-24",
+                "commit_time": "2019-06-24",
+                "dissname": "甜酥骨头 · 古风中的恋爱小调",
+                "imgurl": "http://p.qpic.cn/music_cover/Hepa6V8aXWj4x9UyxSztnYFyNfoUFbpUKD0uc0K2LY5jKibenAdMBnQ/600?n=1",
+                "introduction": "",
+                "listennum": 116256,
+                "score": 0,
+                "version": 0,
+                "creator": {
+                    "type": 2,
+                    "qq": 1950666740,
+                    "encrypt_uin": "oKEkoeCs7wSPon**",
+                    "name": "★、╰︶",
+                    "isVip": 2,
+                    "avatarUrl": "",
+                    "followflag": 0
+                }
+            }
+        ]
+    }
+}
