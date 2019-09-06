@@ -53,3 +53,22 @@ export function getSongList(disstid) {
   return jsonp(url, data, options)
 }
 
+// 获取vkey
+export function getSongVkey () {
+  const url = 'https://c.y.qq.com/base/fcgi-bin/fcg_music_express_mobile3.fcg'
+  const data = Object.assign({}, commonParams, {
+    callback: 'musicJsonCallback',
+    loginUin: 3051522991,
+    format: 'jsonp',
+    platform: 'yqq',
+    needNewCode: 0,
+    cid: 205361747,
+    uin: 2530384598,
+    guid: 9152999990,
+    songmid: '003clL2S0lVVSF',
+    filename: `C400003clL2S0lVVSF.m4a`
+  })
+
+  return jsonp(url, data)
+}
+

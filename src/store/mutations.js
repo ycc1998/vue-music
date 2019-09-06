@@ -4,21 +4,33 @@ const matutaions = {
   [types.SET_SINGER](state, singer) {
     state.singer = singer
   },
+
+  //播放/暂停
   [types.SET_PLAYING_STATE](state, flag) {
     state.playing = flag
   },
+
+//全屏/小屏
   [types.SET_FULL_SCREEN](state, flag) {
     state.fullScreen = flag
   },
+
+  //播放列表
   [types.SET_PLAYLIST](state, list) {
     state.playlist = list
   },
+
+    //歌曲顺序列表
   [types.SET_SEQUENCE_LIST](state, list) {
     state.sequenceList = list
   },
+
+  //播放模式，默认顺序播放
   [types.SET_PLAY_MODE](state, mode) {
     state.mode = mode
   },
+
+  //索引下标
   [types.SET_CURRENT_INDEX](state, index) {
     state.currentIndex = index
   },

@@ -15,13 +15,18 @@ import musicList from '../music-list/music-list'
 export default{
 	data(){
 		return {
-			songs:{},
+			songs:[],
 			id:''
 		}
 	},
 	created(){
 		this.id = this.$route.params.id
 		this._getSingerDetail(this.id)
+		
+		//如果在歌手详情列表中刷新加返回到歌手列表
+		if(!this.singer.name){
+			this.$router.back()
+		}
 	},
 	methods:{
 		_getSingerDetail(id){
@@ -41,7 +46,7 @@ export default{
 	      list.forEach((item) => {
 	        let {musicData} = item
 	        if (musicData.songid && musicData.albummid) {
-	          ret.push(createSong(musicData))
+	          ret.push(createSong(musicData,this.vkey))
 	        }
 	      })
 	      return ret
@@ -49,13 +54,13 @@ export default{
 	},
 	computed:{
 		...mapGetters([
-      'singer'
+      'singer',
+      'vkey'
     ]),
     title() {
       return this.singer.name
     },
     bgImage() {
-    	console.log(this.singer)
 	      return this.singer.avatar
 	    },
 	},
