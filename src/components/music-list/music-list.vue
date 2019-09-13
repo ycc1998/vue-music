@@ -6,7 +6,7 @@
     <h1 class="title" v-html="title"></h1>
     <div class="bg-image" :style="bgStyle" ref="bgImage">
       <div class="play-wrapper">
-        <div class="play" ref="play" v-show="songs.length>0">
+        <div class="play" ref="play" v-show="songs.length>0" @click="random">
           <i class="icon-play"></i>
           <span class="text">随机播放全部</span>
         </div>
@@ -40,6 +40,7 @@ import loading from '@/base/loading/loading'
 
 import {prefixStyle} from '@/common/js/dom'
 import { mapActions } from 'vuex'
+import {playMode} from '@/common/js/config'
 
 const RESERVED_HEIGHT = 40
   export default {
@@ -62,6 +63,15 @@ const RESERVED_HEIGHT = 40
       }
     },
     methods:{
+      //随机播放全部
+      random(){
+        let index = Math.floor((Math.random() * this.songs.length))        
+        this.selectPlay({
+          list: this.songs,
+          index,
+          mode:playMode.random
+        })
+      },
       selectItem(item,index){
         this.selectPlay({
           list: this.songs,

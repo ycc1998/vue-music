@@ -48,6 +48,10 @@ const matutaions = {
   },
   [types.SET_FAVORITE_LIST](state, list) {
     state.favoriteList = list
+  },
+  //音乐播放请求key
+  setVkey(state, key) {
+    state.vkey = key
   }
 }
 

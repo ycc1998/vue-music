@@ -14,7 +14,19 @@ module.exports = {
         pathRewrite: {
           '^/getDiscList': ''    //代理的路径
         }
-      }
-    }
+      },
+      '/lyric': {
+        target: 'https://c.y.qq.com/lyric/fcgi-bin/fcg_query_lyric_new.fcg',   //代理接口
+        changeOrigin: true,
+        headers: {
+          referer: 'https://c.y.qq.com/',
+          host: 'c.y.qq.com'
+        },
+        pathRewrite: {
+          '^/lyric': ''    //代理的路径
+        }
+      }    
+    },
+
   }
 }

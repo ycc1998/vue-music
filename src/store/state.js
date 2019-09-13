@@ -1,7 +1,7 @@
 import {playMode} from '@/common/js/config'
 const state = {
 	singer: {},
-	vkey:'',
+	vkey:'', //音乐播放请求key
 	playing:false,//播放/暂停
 	fullScreen:false,//全屏/小屏
 	playlist:[],//歌曲列表
