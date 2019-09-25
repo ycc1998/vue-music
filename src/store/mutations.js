@@ -1,9 +1,11 @@
-import * as types from './mutation-types'
+﻿import * as types from './mutation-types'
 
 const matutaions = {
   [types.SET_SINGER](state, singer) {
     state.singer = singer
   },
+
+
 
   //播放/暂停
   [types.SET_PLAYING_STATE](state, flag) {

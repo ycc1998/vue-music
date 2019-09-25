@@ -35,7 +35,7 @@
   import {getRecommend, getDiscList} from '@/api/recommend'
   //import {playlistMixin} from '@/common/js/mixin'
   import {ERR_OK} from '@/api/config'
-  //import {mapMutations} from 'vuex'
+  import {mapMutations} from 'vuex'
 
   export default {
    // mixins: [playlistMixin],
@@ -82,9 +82,9 @@
           }
         })
       },
-      /*...mapMutations({
+      ...mapMutations({
         setDisc: 'SET_DISC'
-      })*/
+      })
     },
     components: {
       Slider,

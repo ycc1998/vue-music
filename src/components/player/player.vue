@@ -90,12 +90,12 @@
           </progress-circle>
           
         </div>
-        <div class="control">
+        <div class="control" @click="showplaylist">
           <i class="icon-playlist"></i>
         </div>
       </div>
     </transition>
-    <!-- <playlist ref="playlist"></playlist> -->
+    <playlist ref="playlist"></playlist>
     <audio 
     ref="audio"
     @ended="ended" 
@@ -116,11 +116,12 @@ import progressBar from '@/base/progress-bar/progress-bar'
 import progressCircle from '@/base/progress-circle/progress-circle'
 import {playMode} from '@/common/js/config'
 import Lyric from 'lyric-parser'
-
+import playlist from '@/components/playlist/playlist'
+import {playerMixin} from '@/common/js/mixin'
 
 
 export default{
-
+mixins: [playerMixin],
   data(){
     return {
       songReady: false,
@@ -134,10 +135,9 @@ export default{
   },
 //计算属性
 	computed: {
-  //播放模式
-  iconMode(){
-    return this.mode === playMode.sequence ? 'icon-sequence' : (this.mode === playMode.loop ? 'icon-loop' : 'icon-random')
-  },
+  //播放模式放公共文件minxin.js
+  
+  
   //算出当前进度百分比
     percent() {
       return this.currentTime / this.currentSong.duration
@@ -169,6 +169,9 @@ export default{
   },
   //方法
   methods:{
+    showplaylist(){
+      this.$refs.playlist.show();
+    },
 	  middleTouchStart(e) {
 	    this.touch.initiated = true
 	    const touch = e.touches[0]
@@ -240,13 +243,7 @@ export default{
     }
   },
   //改变播放模式
-  changeMode(){
-    let mode = this.mode + 1;
-    if(mode > playMode.random){
-      mode = 0
-    }
-    this.setPlayMode(mode)
-  },  
+   
   //改变播放进度
   onProgressBarChange(newValue){
     this.$refs.audio.currentTime = this.currentSong.duration * newValue
@@ -291,8 +288,9 @@ export default{
       }
       let index = this.currentIndex - 1
       if(index < 0){
-        index = this.currentSong.length - 1
+        index = this.playlist.length - 1
       }
+      console.log(index)
       this.setCurrentIndex(index)
       this.songReady = false
     },
@@ -302,8 +300,13 @@ export default{
         return
       }
       let index = this.currentIndex + 1
-      if(index >= this.currentSong.length){
+      if(index >= this.playlist.length){
         index = 0
+        this.$refs.audio.play()
+        this.setPlayingState(true)
+        if (this.currentLyric) {
+          this.currentLyric.seek(0)
+        }
       }
       this.setCurrentIndex(index)
       this.songReady = false
@@ -337,7 +340,13 @@ export default{
     },
     //播放/暂停
     togglePlaying(){
-      this.setPlayingState(!this.playing)      
+      if (!this.songReady) {
+        return
+      }
+      this.setPlayingState(!this.playing) 
+      if (this.playing) {
+          this.currentLyric.togglePlay()
+        }     
     },
   	back() {
       this.setFullScreen(false)
@@ -410,12 +419,24 @@ export default{
   },
   //监听
   watch:{
-    currentSong(){   
-      this.$nextTick(() => {
+    currentSong(newSong, oldSong) {
+      if (!newSong.id) {
+        return
+      }
+      if (newSong.id === oldSong.id) {
+        return
+      }
+      if (this.currentLyric) {
+        this.currentLyric.stop()
+        this.currentTime = 0
+        this.playingLyric = ''
+        this.currentLineNum = 0
+      }
+      clearTimeout(this.timer)
+      this.timer = setTimeout(() => {
         this.$refs.audio.play()
-        this.setPlayingState(true)
         this.getLyric()
-      })
+      }, 1000)
     },
     playing(newPlaying) {
       const audio = this.$refs.audio
@@ -427,7 +448,8 @@ export default{
   components:{
     scroll,
     progressBar,
-    progressCircle
+    progressCircle,
+    playlist
   }
 }
 </script>

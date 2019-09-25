@@ -25,7 +25,29 @@ module.exports = {
         pathRewrite: {
           '^/lyric': ''    //代理的路径
         }
-      }    
+      },
+      '/getSongList': {
+        target: 'https://c.y.qq.com/qzone/fcg-bin/fcg_ucc_getcdinfo_byids_cp.fcg',   //代理接口
+        changeOrigin: false,
+        headers: {
+          referer: 'https://c.y.qq.com/',
+          host: 'c.y.qq.com'
+        },
+        pathRewrite: {
+          '^/getSongList': ''    //代理的路径
+        }
+      },
+      '/search': {
+        target: 'https://c.y.qq.com/soso/fcgi-bin/search_for_qq_cp',   //代理接口
+        changeOrigin: true,
+        headers: {
+          referer: 'https://c.y.qq.com/',
+          host: 'c.y.qq.com'
+        },
+        pathRewrite: {
+          '^/search': ''    //代理的路径
+        }
+      }     
     },
 
   }

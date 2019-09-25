@@ -6,6 +6,10 @@
 
 <script type="text/ecmascript-6">
   import BScroll from '@better-scroll/core'
+  import PullDown from '@better-scroll/pull-down'
+  import Pullup from '@better-scroll/pull-up'
+  BScroll.use(Pullup)
+  BScroll.use(PullDown)
 
   export default {
     props: {
@@ -25,7 +29,13 @@
         type: [Array,Object],
         default: null
       },
+      //上拉
       pullup: {
+        type: Boolean,
+        default: false
+      },
+      //下拉
+      PullDown:{
         type: Boolean,
         default: false
       },
@@ -50,8 +60,39 @@
         }
         this.scroll = new BScroll(this.$refs.wrapper, {
           probeType: this.probeType,
-          click: this.click
+          click: this.click,
+          scrollY: true,
+          pullUpLoad: this.pullup,
+          pullDownRefresh: this.PullDown
         })
+
+        //下拉
+        if(this.PullDown){
+          this.scroll.on('pullingDown', ()=>{
+            this.$emit('scrollToDown')
+            setTimeout(() => {
+              this.scroll.finishPullDown()
+              this.scroll.refresh()
+            }, 800)
+          })
+        }
+
+        //上拉
+        if (this.pullup) {
+          /*this.scroll.on('scrollEnd', () => {
+            if (this.scroll.y <= (this.scroll.maxScrollY + 50)) {
+              this.$emit('scrollToEnd')
+            }
+          })*/
+
+          this.scroll.on('pullingUp', ()=>{
+            this.$emit('scrollToEnd')
+            setTimeout(() => {
+              this.scroll.finishPullUp()
+              this.scroll.refresh()
+            }, 800)
+          })
+        }
 
         if (this.listenScroll) {
           let me = this
@@ -60,13 +101,7 @@
           })
         }
 
-        if (this.pullup) {
-          this.scroll.on('scrollEnd', () => {
-            if (this.scroll.y <= (this.scroll.maxScrollY + 50)) {
-              this.$emit('scrollToEnd')
-            }
-          })
-        }
+        
 
         if (this.beforeScroll) {
           this.scroll.on('beforeScrollStart', () => {
